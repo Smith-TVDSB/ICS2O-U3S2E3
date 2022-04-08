@@ -1,6 +1,6 @@
-def initials(listOfNames):
+def caseSwitcher(sentence):
     #Return a list of initials:
-    return listOfNames
+    return sentence
 
 
 #No main code needed

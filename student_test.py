@@ -2,8 +2,8 @@ import pytest
 import student 
 
 def test_default():
-    assert student.initials(["Steve Rogers", "Tony Stark", "Bruce Banner"]) == ["SR", "TS", "BB"]
+    assert "THIS is A sentence THAT must WORK" in student.caseSwitcher("This is a sentence that must work")
 
-def test_business_department():
-    assert student.initials(["Austin Scarpelli", "Andrea Brule", "Rosarie Brazier"])==['AS','AB','RB']
+def test_second_sentence():
+    assert "THIS must ALSO work" in student.caseSwitcher("This must also work")
 
